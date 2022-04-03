@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    color: white;
+    background-color: black;
+    width: 1200px;
+    height:600px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    text-align:center;
+    margin:auto;
+    padding: 200px;
+    font-family:'Inconsolata', sans-serif;
+}
+.contentContainer {
+    background-color: #0e0e0e;
+    border: solid 3px #b7094c;
+    border-radius: 2%;
+    margin: 100px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(193, 45, 126);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 360px;
+    font-size: 30px;
+    font-family:'Inconsolata', sans-serif;
+    cursor:pointer;
+}
+
+#diceImage img{
+    width: 300px;
+    border-radius: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    color:rgb(56, 26, 167)
+}
+
